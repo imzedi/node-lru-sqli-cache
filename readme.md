@@ -15,8 +15,8 @@ npm i node-lru-sqli-cache
 const cache = require('node-lru-sqli-cache')
 
 const cache = nnew Cache({
-  directory: 'cache', 	// (string) directory to store sqlite db, 		default => 'cache'
-  maxKeys: 500,  		// (number) Maximum items that can be cached, 	default => 500
+  directory: 'cache',	// (string) directory to store sqlite db, 		default => 'cache'
+  maxKeys: 500,		// (number) Maximum items that can be cached, 	default => 500
 })
 
 // Set key value pair to cache (both key and value must be string)
