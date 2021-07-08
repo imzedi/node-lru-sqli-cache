@@ -1,0 +1,15 @@
+{
+  "name": "node-lru-sqli-cache",
+  "version": "1.0.0",
+  "description": "Node.js LRU cache using MySQLi database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zaid Kureshi",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
