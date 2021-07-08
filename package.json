@@ -1,13 +1,28 @@
 {
   "name": "node-lru-sqli-cache",
   "version": "1.0.0",
-  "description": "Node.js LRU cache using MySQLi database.",
+  "description": "Node.js LRU cache using SQLi database.",
+  "keywords": [
+    "cache",
+    "lru",
+    "mysqli",
+    "node"
+  ],
+  "homepage": "https://github.com/imzedi/node-lru-sqli-cache",
+  "bugs": {
+    "url": "https://github.com/imzedi/node-lru-sqli-cache/issues"
+  },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imzedi/node-lru-sqli-cache.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zaid Kureshi",
-  "license": "ISC",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"

@@ -154,7 +154,7 @@ class Cache {
   }
 
   async refresh() {
-    // Remove least accessed files if cache exceed its limit
+    // Remove least accessed key if cache exceed its limit
     try {
       if (this.options.maxKeys) {
         const result = await this.db.get(
